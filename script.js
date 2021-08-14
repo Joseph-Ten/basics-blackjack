@@ -230,28 +230,3 @@ var main = function (input) {
     output = "The deck is finished, refresh to start again";
   }
 };
-
-// // compare results - highest card wins
-// else if (gameMode == "compare results") {
-//   console.log(`your compare results is working`);
-//   if (computerScore() > playerScore() || computerScore() > playerScore2()) {
-//     output = `The computer won! The computer scored ${computerScore()}, while you scored ${playerScore2()}. Press submit or refresh the page to play again!`;
-//     gameMode = "dealing cards";
-
-//     return output;
-//   } else if (
-//     playerScore() > computerScore() ||
-//     playerScore2() > computerScore()
-//   ) {
-//     output = `You win! The computer scored ${computerScore()}, while you scored ${playerScore2()}. Press submit or refresh the page to play again!`;
-//     gameMode = "dealing cards";
-//     return output;
-//   } else if (
-//     playerScore() == computerScore() ||
-//     playerScore2() == computerScore()
-//   ) {
-//     output = `It's a tie! The computer scored ${computerScore()}, while you scored ${playerScore2()}. Press submit or refresh the page to play again!`;
-//     gameMode = "dealing cards";
-//     return output;
-//   }
-// }
